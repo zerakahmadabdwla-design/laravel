@@ -1,6 +1,12 @@
+use/app/http/controllers/testcontrol
+route::get('/home',[testcontrol::class,'method']);
+
 <?php
 
-use Illuminate\Support\Facades\Route;
+use/app/http/controllers/testcontrol
+route::get('/home',[testcontrol::class,'method']);
+
+
 
 Route::get('/', function () {
     return view('welcome');
