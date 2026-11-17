@@ -7,6 +7,9 @@ route::get('/home',[testcontrol::class,'method']);
 
 
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/home/{id}', function ($id) {
+    return $id;
 });
+
+
+
