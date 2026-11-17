@@ -1,5 +1,4 @@
-use/app/http/controllers/testcontrol
-route::get('/home',[testcontrol::class,'method']);
+
 
 <?php
 
